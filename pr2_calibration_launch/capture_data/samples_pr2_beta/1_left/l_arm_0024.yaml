@@ -14,7 +14,7 @@ joint_commands:
   segments:
   - duration: 2.0
     positions: [0.10095648276653492, 0.023601983546142791, -1.1753613249618604, -0.86497820735483644,
-      -0.34326461396462604, -0.098522873667025418, -0.16492940685189036]
+      -0.34326461396462604, -0.098522873667025418, 1.40586691994]
 joint_measurements:
 - {chain_id: head_chain, config: tight_tol}
 - {chain_id: left_arm_chain, config: tight_tol}
