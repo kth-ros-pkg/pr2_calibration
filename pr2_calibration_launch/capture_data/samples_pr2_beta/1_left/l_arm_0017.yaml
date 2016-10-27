@@ -1,6 +1,6 @@
 camera_measurements:
 - {cam_id: forearm_left_rect, config: small_cb_4x5}
-- {cam_id: kinect_torso, config: small_cb_4x5}
+#- {cam_id: kinect_torso, config: small_cb_4x5}
 joint_commands:
 - controller: head_traj_controller
   segments:
@@ -10,7 +10,7 @@ joint_commands:
   segments:
   - duration: 2.0
     positions: [0.33239640615842969, 0.051687498016821945, 1.8073196956855824, -0.77102201566692674,
-      1.220515687569883, -1.3772266075140498, -4.3974869556004554]
+      1.220515687569883, -1.3772266075140498, -2.82669062881]
 - controller: r_arm_controller
   segments:
   - duration: 2.0

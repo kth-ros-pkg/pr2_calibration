@@ -1,7 +1,7 @@
 camera_measurements:
 - {cam_id: narrow_left_rect, config: small_cb_4x5}
 - {cam_id: narrow_right_rect, config: small_cb_4x5}
-- {cam_id: kinect_head, config: small_cb_4x5}
+#- {cam_id: kinect_head, config: small_cb_4x5}
 joint_commands:
 - controller: head_traj_controller
   segments:
@@ -11,7 +11,7 @@ joint_commands:
   segments:
   - duration: 2.0
     positions: [0.41107478603020925, 0.92775252168655442, 0.36172093596105781, -1.0236469070311827,
-      -0.72470830531661745, -0.88018070429628259, -4.0270520098725076]
+      -0.72470830531661745, -0.88018070429628259, -2.45625568308]
 - controller: r_arm_controller
   segments:
   - duration: 2.0
